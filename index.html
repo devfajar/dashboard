@@ -1,77 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Responsive Dashboard using HTML CSS</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboard</title>
 
-    <!-- Material Icon  -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
-      rel="stylesheet">
-    <!-- Custom Stylesheet  -->
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen" />
-  </head>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
 
-  <body>
-    <div class="container">
-      <aside>
-        <div class="top">
-          <div class="logo">
-            <img src="assets/images/logo.png">
-            <h2>My<span class="danger">Dashboard</span></h2>
-          </div>
-          <div class="close" id="close-btn">
-            <span class="material-icons-sharp">close</span>
-          </div>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <section id="menu">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="">
+            <h2>Dboard</h2>
         </div>
 
-          <div class="sidebar">
-            <a href="#">
-              <span class="material-icons-sharp">grid_view</span>
-              <h3>Dashboard</h3>
-            </a>
-            <a href="#">
-              <span class="material-icons-sharp">person_outline</span>
-              <h3>Customers</h3>
-            </a>
-            <a href="#">
-              <span class="material-icons-sharp">receipt_long</span>
-              <h3>Orders</h3>
-            </a>
-            <a href="#">
-              <span class="material-icons-sharp">insights</span>
-              <h3>Analytics</h3>
-            </a>
-            <a href="#">
-              <span class="material-icons-sharp">mail_outline</span>
-              <h3>Messages</h3>
-              <span class="message-count">26</span>
-            </a>
-            <a href="#">
-              <span class="material-icons-sharp">inventory</span>
-              <h3>Products</h3>
-            </a>
-            <a href="#">
-              <span class="material-icons-sharp">report_gmailerrorred</span>
-              <h3>Reports</h3>
-            </a>
-            <a href="#">
-              <span class="material-icons-sharp">settings</span>
-              <h3>Settings</h3>
-            </a>
-            <a href="#">
-              <span class="material-icons-sharp">add</span>
-              <h3>Add Product</h3>
-            </a>
-            <a href="#">
-              <span class="material-icons-sharp">logout</span>
-              <h3>Logout</h3>
-            </a>
+        <div class="items">
+            <li><i class="far fa-chart-pie-alt"></i><a href="#">Dashboard</a></li>
         </div>
-      </aside>
-
-
-    </div>
-  </body>
+    </section>
+    
+</body>
 </html>
