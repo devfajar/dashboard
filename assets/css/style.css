@@ -72,3 +72,15 @@ body {
     font-weight: 300px;
     transition: 0.3s ease;
 }
+
+#interface {
+    width: calc(100% - 300px);
+}
+
+#interface .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    
+}
