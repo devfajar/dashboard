@@ -82,5 +82,46 @@ body {
     align-items: center;
     justify-content: space-between;
     background: #fff;
+    padding: 15px 30px;
+    border-bottom: 3px solid #594EF7;
+}
+
+#interface .navigation .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+    border: 1px solid #D7DBE6;
+    border-radius: 4px;    
+}
+
+#interface .navigation .search i {
+    margin-right: 14px;
+}
+
+#interface .navigation .search input {
+    border: none;
+    outline: none;
+    font-size: 14px ;
+}
+
+#interface .navigation .profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#interface .navigation .profile i{
+    margin-right: 20px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+#interface .navigation .profile img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
     
 }
